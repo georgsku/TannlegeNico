@@ -25,14 +25,16 @@ export default {
 
 <style lang="scss">
 
+  body {
+    color: #3c4a4d;
+  }
+
   h1, h2, h3, h4 {
     font-family: 'Montserrat', sans-serif;
-    color: #3c4a4d;
   }
 
   p {
     font-family: 'Baloo Tamma 2', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #3c4a4d;
   }
 
   * {
