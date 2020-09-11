@@ -2,7 +2,7 @@
   <header>
     <div class="content">
       <div class="header-image">
-        <img src="https://i.imgur.com/rVeAt1i.jpg" alt="image">
+        <img src="https://i.imgur.com/fW6AOzf.png" alt="image">
       </div>
       <div class="header-text">
         <p>
@@ -33,7 +33,8 @@ export default {
 
 <style lang="scss">
   header {
-    background: lightgrey;
+    background: rgb(104, 127, 172);
+    margin-top: 40px;
 
     & .content {
       display: flex;
@@ -41,6 +42,18 @@ export default {
       justify-content: space-evenly;
 
       & .header-image {
+        transform: scaleY(1.2);
+
+        & img {
+          height: 30vw;
+        }
+      }
+
+      & .header-text {
+        padding: 10px 15px;
+        text-align: center;
+        font-size: 18px;
+          color: white;
 
       }
 
