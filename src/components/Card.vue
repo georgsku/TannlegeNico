@@ -47,8 +47,8 @@ export default {
   }
 
   .card-container:hover {
-    transform: scale(1.03) translateY(-6px);
-    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .15)!important;
+    transform: scale(1.02) translateY(-3px);
+    box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, .15)!important;
   }
 
 </style>

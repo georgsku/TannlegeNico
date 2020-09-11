@@ -88,14 +88,14 @@ export default {
   }
 
   .vueperslide {
-    transform: scale(0.8);
+    transform: scale(0.7);
     transition: all 0.3s;
     cursor: pointer;
     border-radius: 50%;
   }
 
   .vueperslide--active {
-    transform: scale(1);
+    transform: scale(0.9);
   }
 
   .vueperslides__bullet--active .default {

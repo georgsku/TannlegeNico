@@ -3,21 +3,21 @@
       <img src="../assets/tooth2.svg" class="navbar-logo mt-4" alt="">
       <h1 class="font-weight-bolder m-0" style="color: #30c9e8">Tannlege</h1>
       <h4 style="color: #30c9e8">&mdash; Nicolay Nilssen &mdash;</h4>
-      <div class="navbar-container mt-1">
+      <div class="navbar-container mt-3">
         <div class="nav-btn" @click="navbarClick('header')">
-          <img src="../assets/dentist.svg" alt="">
+          <img src="../assets/nav/tooth.svg" alt="">
           <p>Om oss</p>
         </div>  
         <div class="nav-btn" @click="navbarClick('.first-info')">
-          <img src="../assets/dentist.svg" alt="">
+          <img src="../assets/nav/calendar.svg" alt="">
           <p>Timebestillinger</p>
         </div>  
         <div class="nav-btn" @click="navbarClick('.second-info')">
-          <img src="../assets/dentist.svg" alt="">
+          <img src="../assets/nav/clock-time-four.svg" alt="">
           <p>Åpningstider</p>
         </div>  
         <div class="nav-btn" @click="navbarClick('.employee')">
-          <img src="../assets/dentist.svg" alt="">
+          <img src="../assets/nav/account-group.svg" alt="">
           <p>Ansatte</p>
         </div> 
       </div>  
@@ -80,6 +80,12 @@ export default {
     & > img {
       height: 40px;
     }
+
+    &:hover {
+      transform: scale(1.02) translateY(-3px);
+      filter: drop-shadow(0 0.5rem 1.2rem rgba(0, 0, 0, .15));
+    }
   }
+
   
 </style>
