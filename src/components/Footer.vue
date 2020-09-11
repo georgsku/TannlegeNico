@@ -27,6 +27,11 @@
     height: 180px;
     background: #3c4a4d;
     color: white;
+
+    a, a:visited, a:hover, a:active {
+      color: white;
+      text-decoration: underline;
+    }
   }
 
 
