@@ -7,7 +7,7 @@
         :gap="3"
         :autoplay="true"
         :slide-ratio="0.3"
-        :duration="2000"
+        :duration="4000"
         :pauseOnHover="true"
         :dragging-distance="200"
         slide-content-outside="bottom"
@@ -15,6 +15,7 @@
       >
         
         <vueper-slide 
+          class="shadow"
           v-for="slide in slides" 
           :key="slide.title" 
           :title="slide.title"
@@ -46,24 +47,24 @@ export default {
         image: "https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       },
       {
-        title: 'Slide #2',
+        title: 'Peder Gunnersen',
         content: 'Slide content.',
-        image: "https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        image: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       },
       {
-        title: 'Slide #3',
+        title: 'Pudder Gendersen',
         content: 'Slide content.',
-        image: "https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       },
       {
-        title: 'Slide #4',
+        title: 'Gender Pudersen',
         content: 'Slide content.',
-        image: "https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       },
       {
-        title: 'Slide #5',
+        title: 'Glemme Bindersen',
         content: 'Slide content.',
-        image: "https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       }
     ]
   }),
