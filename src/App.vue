@@ -22,6 +22,11 @@ export default {
 </script>
 
 <style lang="scss">
+
+  p, h1, h2, h3, h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
   * {
     margin: 0;
     padding: 0;
