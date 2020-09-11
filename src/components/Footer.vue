@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="content row py-4">
+    <div class="content row pt-4">
       <div class="col-1"></div>
       <div class="col-5 text-center">
         <h4>Adresse:</h4>
@@ -24,9 +24,6 @@
     height: 180px;
     background: #3c4a4d;
     color: white;
-
-
-
   }
 
 
