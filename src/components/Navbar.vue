@@ -1,7 +1,9 @@
 <template>
   <nav >
-      <img src="../assets/LogoNicoTannlege.png" class="navbar-logo" alt="">
-      <div class="navbar-container">
+      <img src="../assets/tooth2.svg" class="navbar-logo mt-4" alt="">
+      <h1 class="font-weight-bolder m-0" style="color: #30c9e8">Tannlege</h1>
+      <h4 style="color: #30c9e8">&mdash; Nicolay Nilssen &mdash;</h4>
+      <div class="navbar-container mt-1">
         <div class="nav-btn" @click="navbarClick('a')">
           <img src="../assets/dentist.svg" alt="">
           <p>Om oss</p>
@@ -47,9 +49,8 @@ export default {
   }
 
   .navbar-logo {
-    height: 150px;
+    height: 90px;
     width: auto;
-    margin: 20px 0;
   }
 
   .navbar-container {

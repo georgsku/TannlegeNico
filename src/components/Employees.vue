@@ -1,5 +1,5 @@
 <template>
-  <div class="employee" >
+  <div class="employee py-5" >
     <div class="content">
       <vueper-slides
         class="no-shadow"
@@ -78,7 +78,7 @@ export default {
 <style lang="scss">
 
   .employee {
-    margin: 30px auto;
+    background-color: #f4f8f7;
   }
 
   .vueperslide {
