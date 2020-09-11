@@ -11,9 +11,7 @@
         :pauseOnHover="true"
         :dragging-distance="100"
         slide-content-outside="bottom"
-        
       >
-        
         <vueper-slide 
           class="shadow"
           v-for="slide in slides" 
@@ -92,10 +90,18 @@ export default {
     transform: scale(1);
   }
 
+  .vueperslides__bullet--active .default {
+    border-color: #30c9e8!important;
+  }
+
+  .vueperslides__arrow {
+    color: #3c4a4d;
+  }
+
   .employee-name {
 
     & p {
-      font-size: 20px;
+      font-size: 23px;
     }
   }
 

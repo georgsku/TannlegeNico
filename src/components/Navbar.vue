@@ -3,15 +3,15 @@
       <img src="../assets/LogoNicoTannlege.png" class="navbar-logo" alt="">
       <div class="navbar-container">
         <div class="nav-btn" @click="navbarClick('a')">
-          <img src="../assets/dentist.svg" class="nav-icon" alt="">
+          <img src="../assets/dentist.svg" alt="">
           <p>Om oss</p>
         </div>  
         <div class="nav-btn" @click="navbarClick('b')">
-          <img src="../assets/dentist.svg" class="nav-icon" alt="">
+          <img src="../assets/dentist.svg" alt="">
           <p>Timebestillinger</p>
         </div>  
         <div class="nav-btn" @click="navbarClick('c')">
-          <img src="../assets/dentist.svg" class="nav-icon" alt="">
+          <img src="../assets/dentist.svg" alt="">
           <p>Betaling</p>
         </div>  
       </div>  
