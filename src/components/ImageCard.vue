@@ -1,5 +1,5 @@
 <template>
-  <div class="card-container shadow mx-5 p-3">
+  <div class="card-container image-card-container shadow mx-5 p-3">
     <img :src="image" class="my-2" alt="">
   </div>
 </template>
@@ -22,16 +22,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .card-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .image-card-container {
     justify-content: center;
-    width: 20%;
-    height: 300px;
 
     & img {
-      height: 100px;
+      height: 120px;
     }
   }
 </style>

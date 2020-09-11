@@ -23,13 +23,14 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   .card-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 20%;
-    height: 300px;
+    height: 350px;
+    border-radius: 30px;
 
     & h3 {
       color: #3c4a4d;
@@ -44,4 +45,10 @@ export default {
       height: 50px;
     }
   }
+
+  .card-container:hover {
+    transform: scale(1.03) translateY(-6px);
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .15)!important;
+  }
+
 </style>

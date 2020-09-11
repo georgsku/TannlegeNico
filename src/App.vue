@@ -35,11 +35,13 @@ export default {
 
   p {
     font-family: 'Baloo Tamma 2', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
   }
 
   * {
     margin: 0;
     padding: 0;
+    transition: 0.3s;
   }
 
   .content {
