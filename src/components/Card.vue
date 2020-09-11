@@ -2,7 +2,7 @@
   <div class="card-container shadow mx-4 p-3">
     <img :src="image" class="my-2" alt="">
     <h3 class="mt-4" >{{headline}}</h3>
-    <p>{{text}}</p>
+    <p style="white-space: pre-line">{{text}}</p>
   </div>
 </template>
 

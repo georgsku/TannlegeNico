@@ -68,7 +68,7 @@ export default {
     & > p {
       font-size: 17px;
       margin: 5px 0;
-      color: #7ac8dc;
+      color: #30c9e8;
     }
 
     & > img {

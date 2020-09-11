@@ -9,7 +9,7 @@
         :slide-ratio="0.3"
         :duration="4000"
         :pauseOnHover="true"
-        :dragging-distance="200"
+        :dragging-distance="100"
         slide-content-outside="bottom"
         
       >
