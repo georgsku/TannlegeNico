@@ -11,13 +11,15 @@
         :pauseOnHover="true"
         :dragging-distance="100"
         slide-content-outside="bottom"
+        ref="vueperSlides"
       >
         <vueper-slide 
           class="shadow"
-          v-for="slide in slides" 
+          v-for="(slide, idx) in slides" 
           :key="slide.title" 
           :title="slide.title"
           :image="slide.image"
+          @click.native="setSlide(idx)"
         > 
         <template v-slot:content>
           <div class="vueperslide__content-wrapper employee-name" style="flex-direction: row">
@@ -69,6 +71,9 @@ export default {
   computed: {
   },
   methods: {
+    setSlide(idx) {
+      this.$refs.vueperSlides.goToSlide(idx)
+    }
   },
   mounted() {
   }
