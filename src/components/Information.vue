@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="information" style="margin: 100px 0">
+    <div class="information first-info" style="margin: 100px 0">
       <Card 
         :image="image1"
         headline="Timebestilling"
@@ -12,7 +12,7 @@
       <ImageCard 
         :image="image2"/>
     </div>
-    <div class="information" style="margin: 100px 0">
+    <div class="information second-info" style="margin: 100px 0">
       <ImageCard 
         :image="image1"/>
       <Card 

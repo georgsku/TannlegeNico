@@ -4,18 +4,22 @@
       <h1 class="font-weight-bolder m-0" style="color: #30c9e8">Tannlege</h1>
       <h4 style="color: #30c9e8">&mdash; Nicolay Nilssen &mdash;</h4>
       <div class="navbar-container mt-1">
-        <div class="nav-btn" @click="navbarClick('a')">
+        <div class="nav-btn" @click="navbarClick('header')">
           <img src="../assets/dentist.svg" alt="">
           <p>Om oss</p>
         </div>  
-        <div class="nav-btn" @click="navbarClick('b')">
+        <div class="nav-btn" @click="navbarClick('.first-info')">
           <img src="../assets/dentist.svg" alt="">
           <p>Timebestillinger</p>
         </div>  
-        <div class="nav-btn" @click="navbarClick('c')">
+        <div class="nav-btn" @click="navbarClick('.second-info')">
           <img src="../assets/dentist.svg" alt="">
-          <p>Betaling</p>
+          <p>Åpningstider</p>
         </div>  
+        <div class="nav-btn" @click="navbarClick('.employee')">
+          <img src="../assets/dentist.svg" alt="">
+          <p>Ansatte</p>
+        </div> 
       </div>  
   </nav>
 </template>
@@ -32,7 +36,7 @@ export default {
   },
   methods: {
     navbarClick(element) {
-      document.getElementById(element).scrollIntoView({behavior: "smooth", block: "center",});
+      document.querySelector(element).scrollIntoView({behavior: "smooth", block: "center",});
     }
   },
   mounted() {
@@ -70,6 +74,7 @@ export default {
       font-size: 17px;
       margin: 5px 0;
       color: #30c9e8;
+      font-weight: 600;
     }
 
     & > img {

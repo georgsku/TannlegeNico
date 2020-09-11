@@ -22,8 +22,9 @@
           @click.native="setSlide(idx)"
         > 
         <template v-slot:content>
-          <div class="vueperslide__content-wrapper employee-name" style="flex-direction: row">
-            <p>{{ slide.title }}</p>
+          <div class="employee-name mx-auto col text-center" style="flex-direction: row; white-space:pre-line; width: 70%">
+            <h3>{{ slide.title }}</h3>
+            <p>{{slide.content}}</p>
           </div>
         </template>
         </vueper-slide>
@@ -43,27 +44,27 @@ export default {
     slides: [
       {
         title: 'Gunner Pedersen',
-        content: 'Slide content.',
+        content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also',
         image: "https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       },
       {
         title: 'Peder Gunnersen',
-        content: 'Slide content.',
+        content: 'Loremtry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also',
         image: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       },
       {
         title: 'Pudder Gendersen',
-        content: 'Slide content.',
+        content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also',
         image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       },
       {
         title: 'Gender Pudersen',
-        content: 'Slide content.',
+        content: 'Lorem Ipsum is simply dummy text of the printing aaklshdsklahdkjsahdkshakjdas',
         image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       },
       {
         title: 'Glemme Bindersen',
-        content: 'Slide content.',
+        content: 'Lo Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only fivbook. It has survived not only book. It has survived not only e centurdsadsadasdies, but also',
         image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       }
     ]
@@ -89,6 +90,8 @@ export default {
   .vueperslide {
     transform: scale(0.8);
     transition: all 0.3s;
+    cursor: pointer;
+    border-radius: 50%;
   }
 
   .vueperslide--active {
@@ -106,7 +109,7 @@ export default {
   .employee-name {
 
     & p {
-      font-size: 23px;
+      font-size: 20px;
     }
   }
 
