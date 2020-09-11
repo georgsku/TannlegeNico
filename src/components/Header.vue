@@ -6,7 +6,11 @@
       </div>
       <div class="header-text">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in massa sapien. Quisque vitae ex vel ex eleifend sollicitudin eget sit amet ipsum. Ut in metus in lorem laoreet malesuada. Nunc ut semper nibh. Duis non faucibus lectus. Mauris id congue nisl. Cras molestie tempus neque, ac tempus ante vehicula nec. Aliquam eget luctus nulla. Etiam sit amet ante non ligula aliquet sollicitudin ac ac elit. Fusce sapien leo, volutpat nec mi id, consequat blandit ante.
+          Om Oss
+          <br>
+          Tannlege Nicolay Nilssen. Ved tannlege Nilssens kontor er vi to tannleger og en tannpleier. Vi tilbyr alle former for tannbehandling. fran undersøkelse og tannrens til implantat behandling. I de tilfellene vi ikke kan løse problemet på vårt kontor samarbeider vi med lokale spesialister. Vi samarbeider også med lokale tannteknikere om fremstilling av krone og broarbeider og protesearbeider. Dette for best mulig kvalitet og for et best mulig samarbeide til pasientenes beste.
+          Tannlege Nicolay Nilssen har jobbet som tannlege siden 2001. Han er også godkjent for å utføre implantatprotetisk behandling for trygdens regning. 
+          Tannlege Cathrine Nylund Tingleff har jobbet som tannlege siden 2009. Tannlege tingleff har i hele sin kariere hatt en spesiell interesse for pasienten med tannlegeskrekk.
         </p>
       </div>
     </div>
