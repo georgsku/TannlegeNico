@@ -2,8 +2,8 @@
   <div id="app">
     <Navbar />
     <Header />
-    <Footer />
     <Employees />
+    <Footer />
   </div>
 </template>
 
@@ -25,6 +25,7 @@ export default {
 
   p, h1, h2, h3, h4 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3c4a4d;
   }
 
   * {
@@ -33,7 +34,7 @@ export default {
   }
 
   .content {
-    width: 90vw;
+    width: 80vw;
     max-width: 1200px;
     margin: auto;
   }

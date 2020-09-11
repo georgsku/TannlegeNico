@@ -1,26 +1,28 @@
 <template>
-  <div >
+  <footer>
+    <div class="content row py-4">
+      <div class="col">
+        <p> Storgata 5 </p>
+        <p> 3520 Jevnaker.</p>
+      </div>
+      <div class="col">
 
-  </div>
+      </div>
+      
+    </div>
+
+  </footer>
 </template>
 
-<script>
-export default {
-  components: {},
-  props: {},
-  data() {
-    return {
-    }
-  },
-  computed: {
-  },
-  methods: {
-  },
-  mounted() {
-  }
-}
-</script>
-
 <style lang="scss">
-  
+  footer {
+    height: 180px;
+    background: #abc;
+
+    & > .content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
 </style>
