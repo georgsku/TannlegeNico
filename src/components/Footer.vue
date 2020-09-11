@@ -8,7 +8,10 @@
       </div>
       <div class="col-5 text-center">
         <h4>Telefon:</h4>
-        <p style="white-space: pre-line"> 61 31 13 79</p>
+        <p style="white-space: pre-line"> 
+          <a href="tel:61311379">61 31 13 79</a> <br> 
+          Vi har telefontid i hele åpningstiden. Ved stor pågang har vi tidvis problemer med å besvare alle anrop. Vennligst ring tilbake litt senere!
+          </p>
       </div>
       <div class="col-1"></div>
     </div>
@@ -22,10 +25,9 @@
     background: #3c4a4d;
     color: white;
 
-    & > .content {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-    }
+
+
   }
+
+
 </style>
