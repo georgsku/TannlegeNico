@@ -1,8 +1,6 @@
 <template>
   <nav >
-      <img src="../assets/tooth2.svg" class="navbar-logo mt-4" alt="">
-      <h1 class="font-weight-bolder m-0" style="color: #30c9e8">Tannlege</h1>
-      <h4 style="color: #30c9e8">&mdash; Nicolay Nilssen &mdash;</h4>
+     
       <div class="navbar-container mt-3">
         <div class="nav-btn" @click="navbarClick('header')">
           <img src="../assets/nav/tooth.svg" alt="">
@@ -12,6 +10,11 @@
           <img src="../assets/nav/calendar.svg" alt="">
           <p>Timebestillinger</p>
         </div>  
+        <div class="navbar-logo-container">
+           <img src="../assets/tooth2.svg" class="navbar-logo mt-4" alt="">
+          <h1 class="font-weight-bolder m-0" style="color: #88d8e5">Tannlege</h1>
+          <h4 style="color: #88d8e5">&mdash; Nicolay Nilssen &mdash;</h4>
+        </div>
         <div class="nav-btn" @click="navbarClick('.second-info')">
           <img src="../assets/nav/clock-time-four.svg" alt="">
           <p>Åpningstider</p>
@@ -52,6 +55,13 @@ export default {
     align-items: center;
   }
 
+  .navbar-logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .navbar-logo {
     height: 90px;
     width: auto;
@@ -61,6 +71,7 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
   }
 
   .nav-btn {
@@ -73,7 +84,7 @@ export default {
     & > p {
       font-size: 17px;
       margin: 5px 0;
-      color: #30c9e8;
+      color: #88d8e5;
       font-weight: 600;
     }
 

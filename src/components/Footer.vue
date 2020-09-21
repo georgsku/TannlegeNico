@@ -24,7 +24,6 @@
 
 <style lang="scss">
   footer {
-    height: 180px;
     background: #3c4a4d;
     color: white;
 

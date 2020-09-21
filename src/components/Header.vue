@@ -11,8 +11,13 @@
 </template>
 
 <style lang="scss">
+
+  .content {
+    
+  }
+
   header {
-    background: #30c9e8;
+    background: #88d8e5;
     margin-top: 40px;
     color: #f4f8f7;
 
@@ -30,6 +35,11 @@
         background-size: cover;
         border-radius: 30px;
 
+      }
+
+      .header-image:hover {
+        transform: scale(1.02) translateY(-23px);
+        box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, .15)!important;
       }
 
       & .header-text {
