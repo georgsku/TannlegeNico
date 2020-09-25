@@ -23,8 +23,6 @@ export default {
 
 <style lang="scss" scoped>
   .image-card-container {
-    justify-content: center;
-
     & img {
       height: 120px;
     }

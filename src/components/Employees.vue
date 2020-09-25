@@ -15,7 +15,6 @@
         ref="vueperSlides"
       >
         <vueper-slide 
-          :breakpoints='breakpointsSlide'
           class="shadow"
           v-for="(slide, idx) in slides" 
           :key="slide.title" 
