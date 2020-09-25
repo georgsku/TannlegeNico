@@ -1,5 +1,5 @@
 <template>
-  <div class="card-container shadow p-3 mx-2 mx-md-4 my-4">
+  <div class="card-container shadow py-3 px-5 px-md-3 mx-2 mx-md-4 my-4">
     <img :src="image" class="my-2" alt="">
     <h3 class="mt-4" >{{headline}}</h3>
     <p style="white-space: pre-line">{{text}}</p>
@@ -28,6 +28,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 350px;
     border-radius: 30px;
     margin: 10px 0;
