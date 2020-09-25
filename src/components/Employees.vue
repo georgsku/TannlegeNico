@@ -3,17 +3,19 @@
     <div class="content">
       <vueper-slides
         class="no-shadow"
+        :breakpoints='breakpointsSlides'
         :visible-slides="3"
         :gap="3"
         :autoplay="true"
         :slide-ratio="0.3"
-        :duration="4000"
+        :duration="6000"
         :pauseOnHover="true"
         :dragging-distance="100"
         slide-content-outside="bottom"
         ref="vueperSlides"
       >
         <vueper-slide 
+          :breakpoints='breakpointsSlide'
           class="shadow"
           v-for="(slide, idx) in slides" 
           :key="slide.title" 
@@ -22,7 +24,7 @@
           @click.native="setSlide(idx)"
         > 
         <template v-slot:content>
-          <div class="employee-name mx-auto col text-center" style="flex-direction: row; white-space:pre-line; width: 70%">
+          <div class="employee-name mx-auto col text-center">
             <h3>{{ slide.title }}</h3>
             <p>{{slide.content}}</p>
           </div>
@@ -67,7 +69,18 @@ export default {
         content: 'Lo Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only fivbook. It has survived not only book. It has survived not only e centurdsadsadasdies, but also',
         image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       }
-    ]
+    ],
+    breakpointsSlides: {
+      992: {
+        visibleSlides: 2,
+        slideRatio: 0.5,
+        
+      },
+      768: {
+        visibleSlides: 1,
+        slideRatio: 1,
+      },
+    },
   }),
   computed: {
   },
@@ -108,9 +121,46 @@ export default {
 
   .employee-name {
 
+    flex-direction: row; 
+    white-space:pre-line; 
+    width: 70%;
+
     & p {
       font-size: 20px;
     }
+  }
+
+  @media only screen and (max-width: 992px) {
+
+    .employee .content {
+      width: 70%;
+    }
+
+    .employee-name {
+      width: 80%;
+    }
+
+  }
+  @media only screen and (max-width: 768px) {
+
+    .employee .content {
+      width: 70%;
+    }
+
+    .vueperslide {
+      transform: scale(1);
+    }
+
+    .vueperslide--active {
+      transform: scale(1);
+      box-shadow: 0 0 0 rgba(0,0,0,.15)!important;
+    }
+
+    .employee-name {
+      width: 100%;
+      margin-top: 15px;
+    }
+
   }
 
 </style>

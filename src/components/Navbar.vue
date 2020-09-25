@@ -98,5 +98,13 @@ export default {
     }
   }
 
+  @media only screen and (max-width: 850px) {
+        
+    .nav-btn {
+      display: none;
+    }
+
+  }
+
   
 </style>
