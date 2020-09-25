@@ -148,17 +148,34 @@ export default {
     }
 
     .vueperslide {
-      transform: scale(1);
+      transform: scale(0.7);
     }
 
     .vueperslide--active {
-      transform: scale(1);
+      transform: scale(0.7);
       box-shadow: 0 0 0 rgba(0,0,0,.15)!important;
     }
 
     .employee-name {
       width: 100%;
       margin-top: 15px;
+    }
+    .vueperslides__arrow {
+      color: #3c4a4d;
+    }
+
+  }
+  @media only screen and (max-width: 576px) {
+
+    .vueperslide {
+      transform: scale(1);
+    }
+
+    .vueperslide--active {
+      transform: scale(1);
+    }
+    .vueperslides__arrow {
+      color: inherit;
     }
 
   }

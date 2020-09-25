@@ -98,7 +98,7 @@ export default {
     }
   }
 
-  @media only screen and (max-width: 850px) {
+  @media only screen and (max-width: 768px) {
         
     .nav-btn {
       display: none;
