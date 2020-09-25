@@ -1,33 +1,29 @@
 <template>
-  <div>
-    <div class="information first-info" style="margin: 100px 0">
-      <Card 
-        :image="image1"
-        headline="Timebestilling"
-        text="Timebestillinger gjøres på telefon, eller ved å besøke kontoret."/>
-      <Card 
-        :image="image2"
-        headline="Akuttbehandling"
-        text="Ved behov for akutt behandling vil vi alltid forsøke å hjelpe så fort vi har mulighet."/>
-      <ImageCard 
-        :image="image2"/>
-    </div>
-    <div class="information second-info" style="margin: 100px 0">
-      <ImageCard 
-        :image="image1"/>
-      <Card 
-        :image="image3"
-        headline="Avbestilling"
-        text="Avbestilling av time må gjøres senest 24 timer før avtalt time. Om mulig setter vi pris på om det gjøres så tidlig som mulig. Ikke benyttet time vil fakturerer med 70% av timehonorar."/>
-      <Card 
-        :image="image4"
-        headline="Åpningstider"
-        text="Mandag: 08.30-15.30
-          Tirsdag: 08.30-15.30
-          Onsdag: 08.30-15.30
-          Torsdag: 08.30-15.30
-          Fredag: 08.30-15.00"/>
-    </div>
+  <div class="information content" style="margin: 50px auto">
+    <Card 
+      :image="image1"
+      headline="Timebestilling"
+      text="Timebestillinger gjøres på telefon, eller ved å besøke kontoret."/>
+    <Card 
+      :image="image2"
+      headline="Akuttbehandling"
+      text="Ved behov for akutt behandling vil vi alltid forsøke å hjelpe så fort vi har mulighet."/>
+    <ImageCard 
+      :image="image2"/>
+    <ImageCard 
+      :image="image1"/>
+    <Card 
+      :image="image3"
+      headline="Avbestilling"
+      text="Avbestilling av time må gjøres senest 24 timer før avtalt time. Om mulig setter vi pris på om det gjøres så tidlig som mulig. Ikke benyttet time vil fakturerer med 70% av timehonorar."/>
+    <Card 
+      :image="image4"
+      headline="Åpningstider"
+      text="Mandag: 08.30-15.30
+        Tirsdag: 08.30-15.30
+        Onsdag: 08.30-15.30
+        Torsdag: 08.30-15.30
+        Fredag: 08.30-15.00"/>
   </div>
 </template>
 
@@ -59,7 +55,7 @@ export default {
 <style lang="scss">
   .information {
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
   }
 </style>

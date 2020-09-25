@@ -45,7 +45,7 @@ export default {
   }
 
   .content {
-    width: 80vw;
+    width: 90vw;
     max-width: 1200px;
     margin: auto;
   }

@@ -1,5 +1,5 @@
 <template>
-  <div class="card-container shadow mx-5 p-3">
+  <div class="card-container shadow p-3 mx-2 mx-md-4 my-4">
     <img :src="image" class="my-2" alt="">
     <h3 class="mt-4" >{{headline}}</h3>
     <p style="white-space: pre-line">{{text}}</p>
@@ -28,9 +28,9 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 20%;
     height: 350px;
     border-radius: 30px;
+    margin: 10px 0;
 
     & h3 {
       color: #3c4a4d;
@@ -50,5 +50,22 @@ export default {
     transform: scale(1.02) translateY(-3px);
     box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, .15)!important;
   }
+
+  .card-container {
+    flex: 1 0 26%;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .card-container {
+      flex: 1 0 34%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .card-container {
+      flex: 1 0 51%;
+    }
+  }
+  
 
 </style>
