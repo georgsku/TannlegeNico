@@ -1,5 +1,5 @@
 <template>
-  <div class="content my-5" style="max-width: 7">
+  <div id="about" class="content my-5" style="max-width: 7">
     <Card 
       style=""
       class="px-5"

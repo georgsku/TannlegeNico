@@ -1,6 +1,7 @@
 <template>
   <div class="information content" style="margin: 50px auto">
     <Card 
+      id="calendar"
       :image="image1"
       headline="Timebestilling"
       text="Timebestillinger gjøres på telefon, eller ved å besøke kontoret."/>
@@ -17,6 +18,7 @@
       headline="Avbestilling"
       text="Avbestilling av time må gjøres senest 24 timer før avtalt time. Om mulig setter vi pris på om det gjøres så tidlig som mulig. Ikke benyttet time vil fakturerer med 70% av timehonorar."/>
     <Card 
+      id="opening-hours"
       :image="image4"
       headline="Åpningstider"
       text="Mandag: 08.30-15.30

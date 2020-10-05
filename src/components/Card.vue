@@ -1,6 +1,6 @@
 <template>
   <div class="card-container shadow py-3 px-5 px-md-3 mx-2 mx-md-4 my-4">
-    <img :src="image" class="my-2" alt="">
+    <img :src="image" class="my-2" alt="" v-if="image">
     <h3 class="mt-4" >{{headline}}</h3>
     <p style="white-space: pre-line">{{text}}</p>
   </div>

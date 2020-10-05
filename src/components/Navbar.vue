@@ -2,11 +2,11 @@
   <nav >
      
       <div class="navbar-container mt-3">
-        <div class="nav-btn" @click="navbarClick('header')">
+        <div class="nav-btn" @click="navbarClick('#about')">
           <img src="../assets/nav/tooth.svg" alt="">
           <p>Om oss</p>
         </div>  
-        <div class="nav-btn" @click="navbarClick('.first-info')">
+        <div class="nav-btn" @click="navbarClick('#calendar')">
           <img src="../assets/nav/calendar.svg" alt="">
           <p>Timebestillinger</p>
         </div>  
@@ -15,7 +15,7 @@
           <h1 class="font-weight-bolder m-0" style="color: #88d8e5">Tannlege</h1>
           <h4 style="color: #88d8e5">&mdash; Nicolay Nilssen &mdash;</h4>
         </div>
-        <div class="nav-btn" @click="navbarClick('.second-info')">
+        <div class="nav-btn" @click="navbarClick('#opening-hours')">
           <img src="../assets/nav/clock-time-four.svg" alt="">
           <p>Åpningstider</p>
         </div>  
