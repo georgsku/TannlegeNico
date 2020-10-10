@@ -112,7 +112,7 @@ export default {
   }
 
   .vueperslides__bullet--active .default {
-    border-color: #30c9e8!important;
+    border-color: #88d8e5!important;
   }
 
   .vueperslides__arrow {
