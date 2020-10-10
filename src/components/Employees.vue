@@ -100,6 +100,7 @@ export default {
   }
 
   .vueperslide {
+    border: 7px solid white;
     transform: scale(0.7);
     transition: all 0.3s;
     cursor: pointer;

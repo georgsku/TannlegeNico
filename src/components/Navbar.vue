@@ -13,7 +13,7 @@
         <div class="navbar-logo-container">
            <img src="../assets/tooth2.svg" class="navbar-logo mt-4" alt="">
           <h1 class="font-weight-bolder m-0" style="color: #88d8e5">Tannlege</h1>
-          <h4 style="color: #88d8e5">&mdash; Nicolay Nilssen &mdash;</h4>
+          <h4 style="color: #88d8e5; white-space: nowrap;">&mdash; Nicolay Nilssen &mdash;</h4>
         </div>
         <div class="nav-btn" @click="navbarClick('#opening-hours')">
           <img src="../assets/nav/clock-time-four.svg" alt="">
