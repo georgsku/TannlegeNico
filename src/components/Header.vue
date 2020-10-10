@@ -4,7 +4,7 @@
       <div class="header-image shadow mr-md-4 mr-0 rounded-image"></div>
       <div class="header-text py-5 pl-4">
         <h1>Velkommen til tannlege Nicolay Nilssen</h1>
-        <p>Ved Nilssens kontor er vi to tannleger og en tannpleier. Vi tilbyr alle former for tannbehandling, 
+        <p style="font-size: 22px">Ved Nilssens kontor er vi to tannleger og en tannpleier. Vi tilbyr alle former for tannbehandling, 
           fra undersøkelse og tannrens til implantatbehandling. Vi samarbeider med lokale spesialister og tannteknikere; 
           for å oppnå best mulig resultat for pasienten.</p>
       </div>
@@ -20,6 +20,8 @@
     color: #f4f8f7;
     height: 700px;
     display: flex;
+    border-top: solid 10px #f4f8f7;
+    border-bottom: solid 10px #f4f8f7;
 
     & .content {
       display: flex;
