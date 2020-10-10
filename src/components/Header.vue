@@ -18,7 +18,8 @@
     background: #88d8e5;
     margin-top: 40px;
     color: #f4f8f7;
-    height: 700px;
+    min-height: 700px;
+    padding: 50px 0;
     display: flex;
     border-top: solid 10px #f4f8f7;
     border-bottom: solid 10px #f4f8f7;
@@ -61,6 +62,11 @@
   }
 
   @media only screen and (max-width: 768px) {
+
+    header {
+      height: auto;
+      padding: 0;
+    }
         
     header .content {
       flex-direction: column;
