@@ -2,7 +2,7 @@
   <footer>
     <div class="content row">
       <div class="offset-md-1 col-md-5 col-12 text-center pt-4 align-center">
-        <a href="https://goo.gl/maps/UdvmzoQA1Y4SGwzx9" target="__blank" title="Åpne i Google Maps" class="shadow"  id="footer-map">
+        <a href="https://www.google.no/maps/place/Nicolay+Asbj%C3%B8rn+Nilssen/@60.2410931,10.3862555,17.25z/data=!4m5!3m4!1s0x4641a89723da6c15:0x784357f87ba8d73d!8m2!3d60.240891!4d10.3875154?shorturl=1" target="__blank" title="Åpne i Google Maps" class="shadow"  id="footer-map">
           <img src="../assets/map.png" alt="map">
         </a>
         <!-- <a href="https://goo.gl/maps/UdvmzoQA1Y4SGwzx9" target="__blank" title="Åpne i Google Maps">
