@@ -1,19 +1,17 @@
 <template>
-  <div id="about" class="content my-5" style="max-width: 7">
-    <Card 
-      style=""
-      class="px-5"
-      headline="Om oss"
-      text="Ved tannlege Nilssens kontor er vi to tannleger og en tannpleier. Vi tilbyr alle former for tannbehandling. fran undersøkelse og tannrens til implantat behandling. I de tilfellene vi ikke kan løse problemet på vårt kontor samarbeider vi med lokale spesialister. Vi samarbeider også med lokale tannteknikere om fremstilling av krone og broarbeider og protesearbeider. Dette for best mulig kvalitet og for et best mulig samarbeide til pasientenes beste."/>
+  <div class="py-5 " style="background: #f4f8f7; height 400px">
+    <div id="about" class="content text-center" >
+        <h2>Om oss</h2>
+        <p>Ved Nilssens kontor er vi to tannleger og en tannpleier. Vi tilbyr alle former for tannbehandling, 
+          fra undersøkelse og tannrens til implantatbehandling. 
+          Vi samarbeider med lokale spesialister og tannteknikere; for å oppnå best mulig resultat for pasienten.</p>
+    </div>
   </div>
 </template>
 
 <script>
 
-import Card from './Card'
-
 export default {
-  components: {Card},
   props: {},
   data() {
     return {

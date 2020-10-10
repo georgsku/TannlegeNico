@@ -2,7 +2,6 @@
   <div id="app">
     <Navbar />
     <Header />
-    <About />
     <Information />
     <Employees />
     <Footer />
@@ -12,7 +11,6 @@
 <script>
 import Navbar from './components/Navbar' 
 import Header from './components/Header'
-import About from './components/About' 
 import Information from './components/Information'
 import Employees from './components/Employees'
 import Footer from './components/Footer' 
@@ -21,7 +19,7 @@ import 'vueperslides/dist/vueperslides.css'
 
 export default {
   name: 'App',
-  components: { Navbar, Header, Footer, Information, Employees, About }
+  components: { Navbar, Header, Footer, Information, Employees }
 }
 </script>
 

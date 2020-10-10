@@ -93,8 +93,8 @@ export default {
     }
 
     &:hover {
-      transform: scale(1.02) translateY(-3px);
-      filter: drop-shadow(0 0.5rem 1.2rem rgba(0, 0, 0, .15));
+      transform:  translateY(-3px);
+      filter: drop-shadow(0 0.5rem 1.0rem rgba(0, 0, 0, .15));
     }
   }
 
