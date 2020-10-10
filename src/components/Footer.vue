@@ -5,7 +5,7 @@
       <div class="col-md-5 col-12 text-center pt-4">
         <h4>Adresse:</h4>
         <p class="mb-0" style="white-space: pre-line"> Storgata 5 <br> 3520 Jevnaker</p>
-        <a href="https://goo.gl/maps/a3LvtpqNv5ywWJtZ7" target="__blank" title="Åpne i Google Maps">
+        <a href="https://goo.gl/maps/UdvmzoQA1Y4SGwzx9" target="__blank" title="Åpne i Google Maps">
           <img src="../assets/undraw_Map_dark_k9pw.svg" alt="map" style="height: 50px;">
         </a>
       </div>
